@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Delicias del Norte</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css" />
+</head>
+
+
+
+<nav class="navbar navbar-expand-lg fixed-top sticky-top mt-8">
+
+  <a class=" titulo navbar-brand" href="inicio.html">Delicias del norte
+  </a>
+
+  <button class="ms-auto navbar-toggler custom-toggler navbar-light" type="button" data-toggle="collapse"
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="inicio.html">INICIO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="nosotros.html">NUESTRA HISTORIA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="registro.html">MIEMBROS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="carrito.html">TIENDA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacto.html">CONTACTO</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+<!-- cierra nav -->
+
+<body>
+  <main>
+    <!-- Empieza Contacto-->
+    <h2 class="py-5" style="text-align: center;"> CONTACTO </h2>
+    <div class="row wow fadeInUp mx-5">
+
+
+      <div class="col-lg-6">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="imG/icono-ubicacion.png" class="mx-5 iconoUbicacion" alt="ubicacion">
+            <p>Justo José de Urquiza 71, Cordoba capital, Cordoba</p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/icono-correo.png" class="mx-5 iconoCorreotele" alt="email">
+            <p>deliciasdelnorte@gmail.com</p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/icono-telefono.png" class="mx-5 iconoCorreotele" alt="telefono">
+            <p class="ml-3">+3115988953 <br> +3112641818</p>
+          </div>
+        </div>
+
+
+        <div class="form">
+          <p> <strong> Envia tu consulta y a la brevedad nos contactaremos:</strong></p>
+         
+          <label for="nombre"> Nombre y apellido: </label>
+          <input type="text" id="nombre" class="form-control" />
+
+
+          <label for="telefono"> Telefono: </label>
+          <input type="text" id="telefono" class="form-control" />
+
+          <label for="email"> Email: </label>
+          <input type="text" id="email" class="form-control" />
+
+          <br>
+          <textarea class="form-control" name="message" id="mensaje" placeholder="Escriba su consulta" ></textarea>
+          <br>
+
+          <input  class="btn btn-primary btn-xl text-uppercase center" type="button" onclick="guardarConsulta()"
+            value="ENVIAR CONSULTA" />
+        </div>
+      </div>
+
+
+      <div class="col-lg-6">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.0777669924014!2d-64.19680798515836!3d-31.4119834031815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432987fd488df5f%3A0xae453b1e4cfe442a!2sJusto%20Jos%C3%A9%20de%20Urquiza%2071%2C%20X5000KPA%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1621454386321!5m2!1ses-419!2sar"
+          frameborder="0" style="border:0; width: 100%; height: 440px;" allowfullscreen>></iframe>
+      </div>
+
+
+      <!-- Termina Contacto-->
+
+
+  </main>
+
+  <br>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-4 text-left">
+          <h6>CONTACTO:</h6>
+          <h6>
+            Justo José de Urquiza 71<br>
+            Cordoba Capital, Argentina.<br>
+            Teléfonos: 3115988953 – 3112641818.<br>
+          </h6>
+        </div>
+
+        <div class="col-xs-12 col-md-4 text-left">
+          <h6>HORARIOS DE ATENCION</h6>
+          <h6>
+            Lunes y Martes: de 10 a 13 y de 14 a 18 hs.<br>
+            Miércoles: de 14 a 18 hs.<br>
+            Jueves y Viernes: de 9 a 20 hs.<br>
+          </h6>
+        </div>
+
+        <div class="col-xs-12 col-md-4 text-right">
+          <h6>SIGUENOS EN LAS REDES</h6>
+          <div class="redes-footer">
+            <a href="https://www.facebook.com/"><img src="img/facebook-2.png" width="20px" height="auto"></a>
+            <a href="https://www.youtube.com/"><img src="img/youtube-2.png" width="20px" height="auto"></a>
+            <a href="https://twitter.com/"><img src="img/twitter-2.png" width="20px" height="auto"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 text-right">
+          <p class="small">Orecchia, Sofia Aabella @2021.<br> Todos los derechos reservados.</p>
+        </div>
+      </div>
+  </footer>
+  <!-- Cierra Footer -->
+
+
+  <!----Optional script-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+  <script src="js/globales.js"></script>
+  <script src="js/funciones.js"></script>
+  <script src="js/producto.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
