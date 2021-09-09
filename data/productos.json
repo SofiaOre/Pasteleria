@@ -1,0 +1,12 @@
+[{"id":1,"nombre":"Marquise","precio":400,"imagen":"img/marquise.jpg","categoria":"Tortas", "cantidad":1},
+{"id":2,"nombre":"Selva Negra","precio":800,"imagen":"img/selvanegra.jpg","categoria":"Tortas", "cantidad":1},    
+{"id":3,"nombre":"Cabsha","precio":600,"imagen":"img/cabsha.jpg","categoria":"Tartas", "cantidad":1},
+{"id":4,"nombre":"Lemon Pie","precio":450,"imagen":"img/lemonpie.jpg","categoria":"Tartas", "cantidad":1},
+{"id":5,"nombre":"Cheesecake Maracuya","precio":500,"imagen":"img/cheesecake-maracuya.jpg","categoria":"Tartas", "cantidad":1},
+{"id":6,"nombre":"Cheesecake Chocolate","precio":650,"imagen":"img/Chocolate-Cheesecake.jpg", "categoria":"Tartas", "cantidad":1},
+{"id":7,"nombre":"Cheesecake frutos rojos","precio":700,"imagen":"img/cheesecake-frutosrojos.jpg","categoria":"Tartas", "cantidad":1},
+{"id":8,"nombre":"Torta Minnion","precio":1000,"imagen":"img/minion.jpg","categoria":"Tortas de Diseño", "cantidad":1},
+{"id":9,"nombre":"Torta Frozen","precio":1500,"imagen":"img/frozen.jpg","categoria":"Tortas de Diseño", "cantidad":1},
+{"id":10,"nombre":"Torta Futbol","precio":1600,"imagen":"img/futbol.jpg","categoria":"Tortas de Diseño", "cantidad":1},
+{"id":11,"nombre":"Torta Bombon","precio":1800,"imagen":"img/bombon.jpg","categoria":"Tortas", "cantidad":1},
+{"id":12,"nombre":"Torta Cars","precio":1600,"imagen":"img/cars.jpg","categoria":"Tortas de Diseño", "cantidad":1}]
